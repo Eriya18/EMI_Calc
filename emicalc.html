@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="emicalc.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Loan Calculator</h1>
+        <p>Loan Amount(Rs.)</p>
+        <input id="loan" type="number" placeholder="Enter loan amount here">
+        <p>Interest Rate(%)</p>
+        <input id="int" type="number" placeholder="Enter interest amount here">
+        <p>Months to pay</p>
+        <input id="tenure" type="number" placeholder="Enter loan amount here">
+        <button class="calculate" onclick="calculateEMI()">
+            <p>Calculate</p>
+        </button>
+        <p id= "payment">Monthly payment: </p>
+        <p id ="ipmt"> Interest per month:</p>
+    </div>
+    <script src="emicalc.js"></script>
+</body>
+</html>
